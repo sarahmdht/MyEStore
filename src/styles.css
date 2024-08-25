@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Merienda";
+    src: url(assets/fonts/Merienda-VariableFont_wght.ttf) format("opentype");
+    font-weight: 400;
+  }
+
+  :root {
+    --primary-color: #5d001e;
+    --secondary-color: #e3e2df;
+    --success-color: #e3afbc;
+    --warning-color: #9a1750;
+    --info-color: #ee4c7c;
+    --danger-color: #F5BCBA;
+  }
+
+  body{
+    background-color: var(--secondary-color);
+  }
