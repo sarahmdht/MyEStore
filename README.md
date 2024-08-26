@@ -1,6 +1,20 @@
 # MyEstore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+and images used are copyright free from Pixabay as a demo for development purposes only.
+
+## Project description
+*This is a responsive, single-page application that displays a list of products with their details, implementing a responsive design, and utilize Angular for dynamic data binding and interaction.
+
+*Products data comes from external database and managed through services and modules to make the product's grid responsive to database size and CRUD operations for products.
+
+*Page structure: header(logo and nav links) - home(products' grid) - footer(logo, links, copyright line)
+
+*Products can be filtered by category
+
+*The "Add to Cart" button update a cart summary displayed at the top of the page. The cart summary should show the number of items in the cart and the total price and user can remove items from cart.
+
+*A single product page is displaying more information about the product when clicking on it(e.g., description, additional images).
 
 ## Development server
 
