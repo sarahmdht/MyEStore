@@ -1,0 +1,22 @@
+.info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 8px;
+}
+
+.input-text {
+    padding: 4px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+img {
+margin: 16px 16px 0 0;
+}
+
+h3 {
+    margin-top: 0;
+}

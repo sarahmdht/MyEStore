@@ -6,4 +6,5 @@ export class Product {
     discount?: number;
     quantity!: number;
     photo!: string;
+    description!: string;
 }

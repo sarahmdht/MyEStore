@@ -41,6 +41,9 @@ header {
 .nav li:hover, .nave li:active {
     color: var(--warning-color);
 }
+a {
+    color: var(--secondary-color);
+}
 
 /* Small screens (mobile devices) */
 @media (max-width: 576px) {

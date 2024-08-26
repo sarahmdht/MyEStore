@@ -1,15 +1,18 @@
 <section class="home">
     <h2>Latest Products</h2>
+    <td class="product-subtotal">
+        <!-- <span class="amount">£{{cartItem.totalitem}}</span> -->
+    </td>
 <div class="container">
     @for (product of products; track product.id) {
     <div class="product-card">
-        <div class="product-image">
+                <div class="product-image">
             <img [src]="product.photo" alt="">
         </div>
         <div class="product-info">
-            <h3 class="product-title">{{product.title}}</h3>
+            <a routerLink="/products/{{product.id}}"><h3 class="product-title">{{product.title}}</h3></a>
             <p class="product-price">${{product.discount}}<span class="discount"><del>${{product.price}}</del></span></p>
-            <a routerLink="" class="buy-now">Add to Cart</a>
+            <a class="buy-now" (click)="addCartItem(product)">Add to Cart </a>
         </div>
     </div>
 }
