@@ -6,7 +6,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product1.jpg"
+            "photo": "./img/product1.jpg"
         },
         {
             "id": "2",
@@ -14,7 +14,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product2.jpg"
+            "photo": "./img/product2.jpg"
         },
         {
             "id": "3",
@@ -22,7 +22,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product3.jpg"
+            "photo": "./img/product3.jpg"
         },
         {
             "id": "4",
@@ -30,7 +30,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product4.jpg"
+            "photo": "./img/product4.jpg"
         },
         {
             "id": "5",
@@ -38,7 +38,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product1.jpg"
+            "photo": "./img/product1.jpg"
         },
         {
             "id": "6",
@@ -46,7 +46,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product2.jpg"
+            "photo": "./img/product2.jpg"
         },
         {
             "id": "7",
@@ -54,7 +54,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product3.jpg"
+            "photo": "./img/product3.jpg"
         },
         {
             "id": "8",
@@ -62,7 +62,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product4.jpg"
+            "photo": "./img/product4.jpg"
         },
         {
             "id": "9",
@@ -70,7 +70,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product2.jpg"
+            "photo": "./img/product2.jpg"
         },
         {
             "id": "10",
@@ -78,7 +78,7 @@
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
-            "photo": "assets/img/product1.jpg"
+            "photo": "./img/product1.jpg"
         }
     ]
 }

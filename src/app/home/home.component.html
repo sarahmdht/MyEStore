@@ -1,5 +1,5 @@
 <section class="home">
-    <h2>Our Products</h2>
+    <h2>Latest Products</h2>
 <div class="container">
     @for (product of products; track product.id) {
     <div class="product-card">
@@ -8,9 +8,10 @@
         </div>
         <div class="product-info">
             <h3 class="product-title">{{product.title}}</h3>
-            <p class="product-price"> <ins>${{product.discount}}</ins> <del>${{product.price}}</del></p>
+            <p class="product-price">${{product.discount}}<span class="discount"><del>${{product.price}}</del></span></p>
             <a routerLink="" class="buy-now">Buy Now</a>
         </div>
     </div>
-}</div>
+}
+</div>
 </section>

@@ -2,6 +2,7 @@
     padding: 24px;
     color: var(--primary-color);
 }
+
 .container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -22,9 +23,17 @@
     transform: translateY(-5px);
 }
 
+.product-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
 .product-image img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .product-info {
@@ -41,6 +50,11 @@
     color: var(--primary-color);
     font-size: 1.1em;
     margin-bottom: 15px;
+}
+
+.discount {
+    color: var(--danger-color);
+    margin-left: 4px;
 }
 
 .buy-now {
