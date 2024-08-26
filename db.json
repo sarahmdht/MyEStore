@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "title": "Perfume1",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product1.jpg"
+        },
+        {
+            "id": "2",
+            "title": "perfume2",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product2.jpg"
+        },
+        {
+            "id": "3",
+            "title": "perfume3",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product3.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Perfume4",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product4.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Perfume5",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product1.jpg"
+        },
+        {
+            "id": "6",
+            "title": "Perfume6",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product2.jpg"
+        },
+        {
+            "id": "7",
+            "title": "Perfume7",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product3.jpg"
+        },
+        {
+            "id": "8",
+            "title": "Perfume8",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product4.jpg"
+        },
+        {
+            "id": "9",
+            "title": "Perfume9",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product2.jpg"
+        },
+        {
+            "id": "10",
+            "title": "Perfume10",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "assets/img/product1.jpg"
+        }
+    ]
+}
