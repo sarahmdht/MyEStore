@@ -3,9 +3,9 @@ header {
     flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 4px;
+    padding: 4px 16px;
     margin: 0;
-    border-bottom: 4px solid var(--secondary-color);
+    border-bottom: 4px solid var(--warning-color);
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -20,6 +20,7 @@ header {
     font-family: "Merienda", serif;
     font-weight: 800;
     font-size: 40px;
+    color: var(--warning-color);
 }
 
 .nav {
@@ -35,5 +36,5 @@ header {
 }
 
 .nav li:hover, .nave li:active {
-    color: var(--info-color);
+    color: var(--warning-color);
 }
