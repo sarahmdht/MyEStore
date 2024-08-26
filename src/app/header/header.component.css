@@ -12,6 +12,8 @@ header {
 
 .logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     cursor: pointer;
 }
@@ -21,6 +23,7 @@ header {
     font-weight: 800;
     font-size: 40px;
     color: var(--warning-color);
+    margin-left: 16px;
 }
 
 .nav {
@@ -37,4 +40,9 @@ header {
 
 .nav li:hover, .nave li:active {
     color: var(--warning-color);
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+    header {justify-content: center;}
 }

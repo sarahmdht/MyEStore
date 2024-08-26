@@ -11,12 +11,18 @@ footer {
 
 .logoSection {
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     cursor: pointer;
     font-family: "Merienda", serif;
     font-weight: 800;
     font-size: 20px;
     color: var(--warning-color);
+}
+
+.logoSection img {
+    margin-right: 16px;
 }
 
 ul {
@@ -38,4 +44,11 @@ ul li:hover, .nave li:active {
 .lang h3 {
     margin: 0;
     padding-right: 4px;
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+    footer {
+        flex-direction: column;
+    }
 }
