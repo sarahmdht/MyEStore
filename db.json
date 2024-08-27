@@ -7,7 +7,8 @@
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product1.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
             "id": "2",
@@ -16,7 +17,8 @@
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product2.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
             "id": "3",
@@ -25,7 +27,8 @@
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product3.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
             "id": "4",
@@ -34,61 +37,78 @@
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product4.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
             "id": "5",
+            "title": "Candles",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "./img/product5.jpg",
+            "description": "Experience the allure of luxury with Velvet fregrance candles, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "candles"
+        },
+        {
+            "id": "6",
+            "title": "Incense",
+            "price": 999.00,
+            "discount": 899.00,
+            "quantity": 1,
+            "photo": "./img/product6.jpg",
+            "description": "Experience the allure of luxury with aud incense, a authentic arabian fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "incense"
+        },
+        {
+            "id": "7",
             "title": "Perfume5",
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product1.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
-            "id": "6",
+            "id": "8",
             "title": "Perfume6",
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product2.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
-            "id": "7",
+            "id": "9",
             "title": "Perfume7",
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product3.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
-            "id": "8",
+            "id": "10",
             "title": "Perfume8",
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product4.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
         },
         {
-            "id": "9",
+            "id": "11",
             "title": "Perfume9",
             "price": 999.00,
             "discount": 899.00,
             "quantity": 1,
             "photo": "./img/product2.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
-        },
-        {
-            "id": "10",
-            "title": "Perfume10",
-            "price": 999.00,
-            "discount": 899.00,
-            "quantity": 1,
-            "photo": "./img/product1.jpg",
-            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection."
-        }
+            "description": "Experience the allure of luxury with Velvet Mist Eau de Parfum, a sophisticated fragrance that captivates the senses with its enchanting blend of floral and woody notes. Designed for the modern individual who embodies elegance and charm, this perfume is a timeless addition to your collection.",
+            "category": "perfume"
+        }       
     ]
 }
