@@ -13,4 +13,65 @@ table, th, td {
     list-style-type: none;
   }
 
+  .remove {
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
   
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+  .shop_table.cart, .shop_table.cart th, .shop_table.cart td {
+      display: block;
+      width: 100%;
+  }
+
+  .shop_table.cart thead {
+      display: none; /* Hide table header */
+  }
+
+  .shop_table.cart tr {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+  }
+
+  .shop_table.cart td {
+      padding-left: 50%;
+      position: relative;
+  }
+
+  .shop_table.cart td:before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* Adjust action buttons for smaller screens */
+  .product-remove a.remove {
+      font-size: 18px;
+      line-height: 1;
+  }
+
+  .quantity.buttons_added {
+      display: flex;
+      justify-content: center;
+  }
+
+  .coupon {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+}

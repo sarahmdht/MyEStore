@@ -1,64 +1,59 @@
-<h2>Shop</h2>
-<div class="product-breadcroumb">
-    <a routerLink="">Home &#47;</a>
-    <a routerLink="/shop">Category Name &#47;</a>
-    <a routerLink="/product/{{productId}}">{{productDetails?.title}}</a>
-</div>
-
-<!-- ------ page title end ----- -->
-
-
-<div class="main">
-    <!-- ----- sidebar area ----- -->
-    <div class="sidebar">
-        <app-side-bar></app-side-bar>
+<section class="page">
+    <h2>Shop</h2>
+    <div class="product-breadcroumb">
+        <a routerLink="">Home &#47;</a>
+        <a routerLink="/shop">Category Name &#47;</a>
+        <a routerLink="/product/{{productId}}">{{productDetails?.title}}</a>
     </div>
-    <!-- ----- product area ------  -->
-    <div>
-        <div class="info">
-            <div>
-                <div class="product-images">
-                    <div class="product-main-img">
-                        <img [src]="productDetails?.photo" [alt]="productDetails?.title" width="250"
-                        height="250">
-                    </div>
-
-                    <div class="product-gallery">
-                        <img [src]="productDetails?.photo" [alt]="productDetails?.title" width="100" height="100">
-                        <img [src]="productDetails?.photo" [alt]="productDetails?.title" width="100" height="100">
-                        <img [src]="productDetails?.photo" [alt]="productDetails?.title" width="100" height="100">
-                    </div>
-
-                </div>
-            </div>
-            <!-- ------ right area ------ -->
-            <div>
-                <div class="product-inner">
-                    <h2 class="product-name">{{productDetails?.title}}</h2>
-                    <div class="product-inner-price">
-                        <ins>${{productDetails?.discount}}</ins> <span class="discount"><del>${{productDetails?.price}}</del></span>
-                    </div>
-
-                    <form action="" class="cart">
-                        <div class="quantity">
-                            <input type="number" size="4" id="qty" class="input-text qty text" title="Qty" min="0"
-                                step="1" value="0" #quantitySelect (change)="changeQuantity(quantitySelect.value)">
+    <!-- ------ page title end ----- -->
+    <div class="main">
+        <!-- ----- sidebar area ----- -->
+        <div class="sidebar">
+            <app-side-bar></app-side-bar>
+        </div>
+        <!-- ----- product area ------  -->
+        <div>
+            <div class="info">
+                <div>
+                    <div class="product-images">
+                        <div class="product-main-img">
+                            <img [src]="productDetails?.photo" [alt]="productDetails?.title" width="250" height="250">
                         </div>
-                        <button class="add_to_cart_button " type="button" (click)="addToCart()">Add to
-                            cart</button>
-                    </form>
-
-                    <div class="product-inner-category">
-                        <p>Category: <a href="">Summer</a>.</p>
-                        <p> Tags: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a
-                                href="">shoes</a>. </p>
+                        <div class="product-gallery">
+                            <img [src]="productDetails?.photo" [alt]="productDetails?.title">
+                            <img [src]="productDetails?.photo" [alt]="productDetails?.title">
+                            <img [src]="productDetails?.photo" [alt]="productDetails?.title">
+                        </div>
                     </div>
-                    <div class="product-description">
-                        <h3>Description:</h3>
-                        <p>{{productDetails?.description}}</p>
+                </div>
+                <!-- ------ right area ------ -->
+                <div>
+                    <div class="product-inner">
+                        <h2 class="product-name">{{productDetails?.title}}</h2>
+                        <div class="product-inner-price">
+                            <ins>${{productDetails?.discount}}</ins> <span
+                                class="discount"><del>${{productDetails?.price}}</del></span>
+                        </div>
+                        <form action="" class="cart">
+                            <div class="quantity">
+                                <input type="number" size="4" id="qty" class="input-text qty text" title="Qty" min="0"
+                                    step="1" value="0" #quantitySelect (change)="changeQuantity(quantitySelect.value)">
+                            </div>
+                            <button class="add_to_cart_button " type="button" (click)="addToCart()">Add to
+                                cart</button>
+                        </form>
+                        <div class="product-inner-category">
+                            <p>Category: <a href="">Summer</a>.</p>
+                            <p> Tags: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a
+                                    href="">shoes</a>. </p>
+                        </div>
+                        <div class="product-description">
+                            <h3>Description:</h3>
+                            <p>{{productDetails?.description}}</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>

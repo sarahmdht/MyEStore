@@ -6,17 +6,19 @@ and images used are copyright free from Pixabay as a demo for development purpos
 ## Project description
 *This is a responsive, single-page application that displays a list of products with their details, implementing a responsive design, and utilize Angular for dynamic data binding and interaction.
 
-*Products data comes from external database and managed through services and modules to make the product's grid responsive to database size and CRUD operations for products.
+*Products data comes from external database "http://localhost:3000/" and managed through services and modules to make the product's grid responsive to database size and CRUD operations for products.
 
 *Page structure: header(logo and nav links) - home(products' grid) - footer(logo, links, copyright line)
 
-*Products can be filtered by category
+*Products can be filtered by both categories and search box.
 
-*The "Add to Cart" button update a cart summary displayed at the top of the page. The cart summary should show the number of items in the cart and the total price and user can remove items from cart.
+*The "Add to Cart" button update a cart summary displayed at the top of the page on the header. The cart summary should show the number of items in the cart and the total price and user can remove items from cart.
 
 *A single product page is displaying more information about the product when clicking on it(e.g., description, additional images).
 
 ## Development server
+
+Run `json-server --watch db.json` to watch database file so products data can be fetched during webapplication run.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 

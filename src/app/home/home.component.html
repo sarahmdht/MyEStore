@@ -1,27 +1,29 @@
-<section class="home">
+<section class="page">
     <div class="main">
         <!-- sidebar -->
-<app-side-bar></app-side-bar>
+        <app-side-bar></app-side-bar>
         <!-- main content -->
-    <div>
-    <h2>Latest Products</h2>
-    <div class="container">
-        @for (product of products; track product.id) {
-        <div class="product-card">
-            <div class="product-image">
-                <img [src]="product.photo" alt="">
-            </div>
-            <div class="product-info">
-                <a routerLink="/products/{{product.id}}">
-                    <h3 class="product-title">{{product.title}}</h3>
-                </a>
-                <p class="product-price">${{product.discount}}<span
-                        class="discount"><del>${{product.price}}</del></span></p>
-                <a class="buy-now" (click)="addCartItem(product)">Add to Cart </a>
+        <div>
+            <h2>Latest Products</h2>
+            <div class="container">
+                @for (product of products; track product.id) {
+                <div class="product-card">
+                    <div class="product-image">
+                        <a routerLink="/products/{{product.id}}">
+                            <img [src]="product.photo" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a routerLink="/products/{{product.id}}">
+                            <h3 class="product-title">{{product.title}}</h3>
+                        </a>
+                        <p class="product-price">${{product.discount}}<span
+                                class="discount"><del>${{product.price}}</del></span></p>
+                        <a class="buy-now" (click)="addCartItem(product)">Add to Cart </a>
+                    </div>
+                </div>
+                }
             </div>
         </div>
-        }
-    </div>
-    </div>
     </div>
 </section>

@@ -10,22 +10,23 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './search.component.css'
 })
 export class SearchComponent {
-searchTerm:string = "";
+  searchTerm: string = "";
 
-constructor(private route:ActivatedRoute, private router:Router) {
-  this.route.params.subscribe(params => {
-    if (params['searchTerm']){
-    this.searchTerm = params['searchTerm'];}
-  })
-}
+  constructor(private route: ActivatedRoute, private router: Router) {
+    this.route.params.subscribe(params => {
+      if (params['searchTerm']) {
+        this.searchTerm = params['searchTerm'];
+      }
+    })
+  }
 
-//search function
-search(): void {
- if(this.searchTerm){
-  this.router.navigateByUrl('/search/' + this.searchTerm)
- } else {
-  this.router.navigateByUrl('')
+  //search function
+  search(): void {
+    if (this.searchTerm) {
+      this.router.navigateByUrl('/search/' + this.searchTerm)
+    } else {
+      this.router.navigateByUrl('')
 
- }
-}
+    }
+  }
 }

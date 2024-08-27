@@ -14,7 +14,7 @@ import { ProductsService } from '../services/products.service';
 
 export class CategoryComponent {
   categories: Category[] = [];
-  constructor(private productService:ProductsService){
+  constructor(private productService: ProductsService) {
     this.productService.getAllCategories().then(categories => {
       this.categories = categories;
     });

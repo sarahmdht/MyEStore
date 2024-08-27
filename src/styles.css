@@ -8,7 +8,7 @@
   --primary-color: #2a4555;
   --secondary-color: #e3e2df;
   --success-color: #e3afbc;
-  --warning-color: #EBE72F;
+  --warning-color: #d1ce29;
   --info-color: #ee4c7c;
   --danger-color: #EB2F36;
 }
@@ -24,9 +24,15 @@ a {
   color: var(--primary-color);
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: var(--warning-color);
 }
+
+.page {
+  padding: 24px;
+}
+
 .main {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -41,12 +47,16 @@ a:hover, a:active {
   transition: transform 0.2s;
 }
 
-button, .button, .plus, .minus {
+button,
+.button,
+.plus,
+.minus {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
 
-button, .button {
+button,
+.button {
   border-radius: 20px;
   margin: 8px;
   padding: 8px;
@@ -55,12 +65,29 @@ button, .button {
 
 .plus {
   border-radius: 0 20px 20px 0;
-} 
-.minus{
+}
+
+.minus {
   border-radius: 20px 0 0 20px;
 }
 
 .discount {
   color: var(--danger-color);
   margin-left: 4px;
+}
+
+/* Medium screens (tablets, small laptops) */
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }

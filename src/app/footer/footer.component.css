@@ -1,9 +1,9 @@
 footer {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 16px;
-    margin: 16px 0;
+    margin: 16px 0 0 0;
     border-top: 4px solid var(--warning-color);
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -35,14 +35,15 @@ a {
     color: var(--secondary-color);
 }
 
-ul li:hover, .nave li:active {
+ul li:hover,
+.nave li:active {
     color: var(--warning-color);
 }
 
 .lang {
     display: flex;
     margin-top: 16px;
-    
+
 }
 
 .lang h3 {

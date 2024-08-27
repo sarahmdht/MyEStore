@@ -1,3 +1,3 @@
-export class Category{
-    categories!:string;
+export class Category {
+    categories!: string;
 }

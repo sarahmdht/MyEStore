@@ -16,15 +16,15 @@ export class ProductsService {
   async getAllCategories(): Promise<Category[]> {
     const data = await fetch(this.productsApiUrl);
     const products: Product[] = await data.json() ?? [];
-  
+
     const uniqueCategories = new Set<string>();
-  
+
     products.forEach(product => {
       if (product.categories) {
         uniqueCategories.add(product.categories);
       }
     });
-  
+
     return Array.from(uniqueCategories).map(categoryName => ({ categories: categoryName }));
   }
 

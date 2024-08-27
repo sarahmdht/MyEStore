@@ -45,12 +45,12 @@ export class CartComponent {
 
 
   handleQuantity(val: string, cartItem: CartItem) {
-    if (cartItem.product.quantity< 100 && val === 'plus') {
+    if (cartItem.product.quantity < 100 && val === 'plus') {
       cartItem.product.quantity++;
     } else if (cartItem.product.quantity > 1 && val === 'minus') {
       cartItem.product.quantity--;
     }
-  
+
     this.cartService.changeQuantity(cartItem.product.id, cartItem.product.quantity);
     this.setCart();
   }

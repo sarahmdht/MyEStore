@@ -15,8 +15,8 @@ export class HeaderComponent {
   carttotal!: Cart;
   constructor(private cartService: CartService) {
     this.setCart();
-   }
-  
+  }
+
   setCart() {
     this.carttotal = this.cartService.getCart();
   }
