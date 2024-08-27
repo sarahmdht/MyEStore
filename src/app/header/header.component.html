@@ -1,6 +1,6 @@
 <header>
     <a routerLink="" class="logo">
-        <img src="./img/logo.png" alt="myEstore logo" width="50" height="50"/>
+        <img src="./img/logo.png" alt="myEstore logo" width="50" height="50" />
         <h1>myEstore</h1>
     </a>
 
@@ -11,4 +11,8 @@
         <li><a routerLink="cart">Cart</a></li>
         <li><a routerLink="">Account</a></li>
     </ul>
+
+    <div class="cartBox">
+        <a routerLink="cart" class="cartData">Cart - <span>${{carttotal.totalPrice}} </span> </a>
+    </div>
 </header>
