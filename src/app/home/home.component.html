@@ -1,6 +1,10 @@
 <section class="home">
+    <div class="main">
+        <!-- sidebar -->
+<app-side-bar></app-side-bar>
+        <!-- main content -->
+    <div>
     <h2>Latest Products</h2>
-    <app-search></app-search>
     <div class="container">
         @for (product of products; track product.id) {
         <div class="product-card">
@@ -17,5 +21,7 @@
             </div>
         </div>
         }
+    </div>
+    </div>
     </div>
 </section>

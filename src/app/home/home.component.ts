@@ -7,11 +7,12 @@ import { CartService } from '../services/cart.service';
 import { Product } from '../shared/models/Product';
 import { ProductsService } from '../services/products.service';
 import { SearchComponent } from '../search/search.component';
+import { SideBarComponent } from "../side-bar/side-bar.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, RouterLink, SearchComponent],
+  imports: [RouterOutlet, CommonModule, RouterLink, SearchComponent, SideBarComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

@@ -1,5 +1,5 @@
 input[type="text"] {
-    padding: 8px;
+    padding: 6px;
     font-size: 1em;
     border: 2px solid #ccc;
     border-radius: 5px 0 0 5px;
@@ -26,4 +26,24 @@ button {
 button:hover {
     background-color: var(--warning-color);
     color: var(--primary-color);
+}
+
+/* Medium screens (tablet devices) */
+@media (max-width: 992px) {
+    button {
+        margin-top: 4px;
+        border-radius: 5px;
+    }
+    input[type="text"] {
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+    }
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+button {
+    margin-top: 4px;
+    border-radius: 5px;
+}
 }
