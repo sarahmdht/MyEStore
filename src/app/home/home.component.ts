@@ -19,17 +19,20 @@ import { SideBarComponent } from "../side-bar/side-bar.component";
 export class HomeComponent {
   products: Product[] = [];
 
-  constructor(private productService: ProductsService, private cartService: CartService, private route:ActivatedRoute) {
-   
-      //search
-      this.route.params.subscribe(async params => {
-        if(params['searchTerm']){
-          this.products = (await this.productService.getAllProducts()).filter(product => product.title.toLowerCase().includes(params['searchTerm'].toLowerCase())); 
-      }else{
-      this.productService.getAllProducts().then((productsList: Product[]) => {
-        this.products = productsList;
-  })}
-})
+  constructor(private productService: ProductsService, private cartService: CartService, private route: ActivatedRoute) {
+
+    //search
+    this.route.params.subscribe(async params => {
+      if (params['searchTerm']) {
+        this.products = (await this.productService.getAllProducts()).filter(product => product.title.toLowerCase().includes(params['searchTerm'].toLowerCase()));
+      } else if (params['category']) {
+        this.products = (await this.productService.getAllProductsByCategory(params['category']));
+      } else {
+        this.productService.getAllProducts().then((productsList: Product[]) => {
+          this.products = productsList;
+        })
+      }
+    })
   }
   addCartItem(item: Product) {
     this.cartService.addToCart(item);
