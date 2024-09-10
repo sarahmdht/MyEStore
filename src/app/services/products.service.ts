@@ -7,7 +7,8 @@ import { Category } from '../shared/models/Category';
 })
 export class ProductsService {
   // fetch api
-  productsApiUrl = "http://localhost:3000/products";
+  // productsApiUrl = "http://localhost:3000/products";
+  productsApiUrl = "../db.json";
 
   constructor() { }
 
