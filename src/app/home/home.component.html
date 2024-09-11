@@ -17,13 +17,16 @@
                         <a routerLink="/products/{{product.id}}">
                             <h3 class="product-title">{{product.title}}</h3>
                         </a>
-                        <p class="product-price">
-                            {{ product.discount < product.price ? product.price - product.discount : product.price | currency }}
-                            <span class="discount" *ngIf="product.discount < product.price">
-                              <del>{{ product.price | currency }}</del>
-                            </span>
-                          </p>
-                        <a class="buy-now" (click)="addCartItem(product)">Add to Cart </a>
+                        <div class="end">
+                            <p class="product-price">
+                                {{ product.discount < product.price ? product.price - product.discount : product.price |
+                                    currency }} <span class="discount" *ngIf="product.discount < product.price">
+                                    <del>{{ product.price | currency }}</del>
+                                    </span>
+                            </p>
+                            <a class="buy-now" (click)="addCartItem(product)"><fa-icon [icon]="cart"></fa-icon> Add to
+                                Cart </a>
+                        </div>
                     </div>
                 </div>
                 }

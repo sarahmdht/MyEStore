@@ -8,15 +8,18 @@ import { Product } from '../shared/models/Product';
 import { ProductsService } from '../services/products.service';
 import { SearchComponent } from '../search/search.component';
 import { SideBarComponent } from "../side-bar/side-bar.component";
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'; 
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, RouterLink, SearchComponent, SideBarComponent],
+  imports: [RouterOutlet, CommonModule, RouterLink, SearchComponent, SideBarComponent, FontAwesomeModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  cart = faCartShopping;
   products: Product[] = [];
 
   constructor(private productService: ProductsService, private cartService: CartService, private route: ActivatedRoute) {

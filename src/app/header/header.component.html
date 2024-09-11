@@ -5,17 +5,17 @@
             <h1>myEstore</h1>
         </a>
         <div class="cartBox">
-            <a routerLink="cart" class="cartData">Cart - <span>${{carttotal.totalPrice}} </span> </a>
+            <a routerLink="cart" class="cartData"><fa-icon [icon]="cart"></fa-icon> - <span>${{carttotal.totalPrice}} </span> </a>
         </div>
     </section>
 
     <section class="navMenu">
         <ul class="nav">
-            <li><a routerLink="" routerLinkActive="active">Home</a></li>
-            <li><a routerLink="">Departments</a></li>
-            <li><a routerLink="">Deals</a></li>
-            <li><a routerLink="cart">Cart</a></li>
-            <li><a routerLink="">Account</a></li>
+            <li><a routerLink="" routerLinkActive="active"><fa-icon [icon]="home"></fa-icon> Home</a></li>
+            <li><a routerLink=""><fa-icon [icon]="department"></fa-icon> Departments</a></li>
+            <li><a routerLink=""><fa-icon [icon]="deals"></fa-icon> Deals</a></li>
+            <li><a routerLink="cart"><fa-icon [icon]="cart"></fa-icon> Cart</a></li>
+            <li><a routerLink=""><fa-icon [icon]="account"></fa-icon> Account</a></li>
         </ul>
     </section>
 </header>
