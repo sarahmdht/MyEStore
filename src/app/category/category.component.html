@@ -1,7 +1,7 @@
-<div *ngIf="categories">
+<div *ngIf="category">
   <a routerLink="">All</a>
-    <a *ngFor="let category of categories"
-    routerLink="/category/{{category.categories}}">
-   {{category.categories}}
+    <a *ngFor="let cat of category"
+    routerLink="/category/{{cat.category}}">
+   {{cat.category}}
  </a>
 </div>

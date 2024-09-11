@@ -6,8 +6,6 @@ import { CartService } from '../services/cart.service';
 import { Cart } from '../shared/models/Cart';
 import CartItem from '../shared/models/CartItem';
 import { SideBarComponent } from '../side-bar/side-bar.component';
-// import { MainContentComponent } from '../main-content/main-content.component';
-// import { MatTabsModule } from '@angular/material/tabs';
 // import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // import { faStar } from '@fortawesome/free-solid-svg-icons';
 

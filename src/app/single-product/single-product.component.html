@@ -17,12 +17,12 @@
                 <div>
                     <div class="product-images">
                         <div class="product-main-img">
-                            <img [src]="productDetails?.photo" [alt]="productDetails?.title" width="250" height="250">
+                            <img [src]="productDetails?.image" [alt]="productDetails?.title" width="250" height="250">
                         </div>
                         <div class="product-gallery">
-                            <img [src]="productDetails?.photo" [alt]="productDetails?.title">
-                            <img [src]="productDetails?.photo" [alt]="productDetails?.title">
-                            <img [src]="productDetails?.photo" [alt]="productDetails?.title">
+                            <img [src]="productDetails?.image" [alt]="productDetails?.title">
+                            <img [src]="productDetails?.image" [alt]="productDetails?.title">
+                            <img [src]="productDetails?.image" [alt]="productDetails?.title">
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                     <div class="product-inner">
                         <h2 class="product-name">{{productDetails?.title}}</h2>
                         <div class="product-inner-price">
-                            <ins>${{productDetails?.discount}}</ins> <span
+                            <ins>${{productDetails?.price}}</ins> <span
                                 class="discount"><del>${{productDetails?.price}}</del></span>
                         </div>
                         <form action="" class="cart">

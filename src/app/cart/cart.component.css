@@ -25,6 +25,16 @@ table, th, td {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
+
+.coupon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.coupon span{
+  display: flex;
+  align-self: center;
+}
   
 /* Small screens (mobile devices) */
 @media (max-width: 576px) {

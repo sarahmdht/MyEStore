@@ -91,3 +91,19 @@ button,
     flex-direction: column;
   }
 }
+
+.buy-now {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.buy-now:hover {
+  background-color: var(--warning-color);
+  color: var(--primary-color)
+}

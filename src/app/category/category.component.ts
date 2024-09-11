@@ -13,10 +13,10 @@ import { ProductsService } from '../services/products.service';
 })
 
 export class CategoryComponent {
-  categories: Category[] = [];
+  category: Category[] = [];
   constructor(private productService: ProductsService) {
-    this.productService.getAllCategories().then(categories => {
-      this.categories = categories;
+    this.productService.getAllCategories().then(category => {
+      this.category = category;
     });
   }
 }

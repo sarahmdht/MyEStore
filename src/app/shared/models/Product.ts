@@ -3,9 +3,12 @@ export class Product {
     sku!: string;
     title!: string;
     price!: number;
-    discount?: number;
-    quantity!: number;
-    photo!: string;
+    discount: number = 0;
+    quantity: number = 1;
+    image!: string;
     description!: string;
-    categories!: string;
+    category!: string;
+    constructor(init?: Partial<Product>) {
+        Object.assign(this, init);
+    }
 }

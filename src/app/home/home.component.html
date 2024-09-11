@@ -10,15 +10,19 @@
                 <div class="product-card">
                     <div class="product-image">
                         <a routerLink="/products/{{product.id}}">
-                            <img [src]="product.photo" alt="">
+                            <img [src]="product.image" alt="">
                         </a>
                     </div>
                     <div class="product-info">
                         <a routerLink="/products/{{product.id}}">
                             <h3 class="product-title">{{product.title}}</h3>
                         </a>
-                        <p class="product-price">${{product.discount}}<span
-                                class="discount"><del>${{product.price}}</del></span></p>
+                        <p class="product-price">
+                            {{ product.discount < product.price ? product.price - product.discount : product.price | currency }}
+                            <span class="discount" *ngIf="product.discount < product.price">
+                              <del>{{ product.price | currency }}</del>
+                            </span>
+                          </p>
                         <a class="buy-now" (click)="addCartItem(product)">Add to Cart </a>
                     </div>
                 </div>

@@ -8,6 +8,6 @@ export class Cart {
         this.items.forEach(item => {
             totalPrice += item.totalitem
         })
-        return totalPrice;
+        return parseFloat(totalPrice.toFixed(2));
     }
 }

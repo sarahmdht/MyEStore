@@ -29,7 +29,7 @@
                                 </td>
                                 <td class="product-thumbnail" data-label="Product Image">
                                     <a routerLink="/product/{{cartItem.product.id}}"><img width="145" height="145"
-                                            alt="poster_1_up" class="shop_thumbnail" [src]="cartItem.product.photo"></a>
+                                            alt="poster_1_up" class="shop_thumbnail" [src]="cartItem.product.image"></a>
                                 </td>
                                 <td class="product-name" data-label="Name">
                                     <a routerLink="/product/{{cartItem.product.id}}">{{cartItem.product.title |
@@ -55,13 +55,13 @@
                             </tr>
                             <tr>
                                 <td class="actions" colspan="8">
-                                    <div class="coupon ">
-                                        <label for="coupon_code">Coupon:</label>
-                                        <input type="text" placeholder="Coupon code" value="" id="coupon_code"
+                                    <div class="coupon">
+                                        <span>Coupon:</span>
+                                        <input type="text" placeholder="Coupon code" value=""
                                             name="coupon_code" autocomplete="off">
-                                        <input type="submit" value="Apply Coupon" name="apply_coupon" class="button">
-                                        <input type="submit" value="Update Cart" name="update_cart" class="button">
-                                        <input type="submit" value="Checkout" name="proceed" class="button"
+                                        <input type="submit" value="Apply Coupon" name="apply_coupon" class="buy-now">
+                                        <input type="submit" value="Update Cart" name="update_cart" class="buy-now">
+                                        <input type="submit" value="Checkout" name="proceed" class="buy-now"
                                             routerLink="/checkout">
                                     </div>
                                 </td>
